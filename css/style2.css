@@ -1,0 +1,48 @@
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  line-height: 1.6;
+  background-color: aquamarine;
+}
+
+
+p {
+  font-size: 1rem;
+}
+
+
+h1 {
+  font-size: clamp(
+    2rem,
+    1.0388rem + 2.6699vw,
+    3.375rem
+  );
+}
+
+
+h2 {
+  font-size: clamp(
+    1.75rem,
+    1.005rem + 1.942vw,
+    2.531rem
+  );
+}
+
+
+h3 {
+  font-size: clamp(
+    1.5rem,
+    0.95rem + 1.45vw,
+    1.898rem
+  );
+}
+
+
+h4 {
+  font-size: clamp(
+    1.25rem,
+    0.9rem + 1.05vw,
+    1.424rem
+  );
+}
