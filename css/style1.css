@@ -1,5 +1,27 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  background-color: blue;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+@media (max-width: 36rem) {
+  body {
+    background-color: yellow;
+    color: black;
+  }
+}
+
+@media (max-width: 75rem) {
+  body {
+    background-color: purple;
+    color: white;
+  }
+}
+
+@media (max-width: 87.5rem) {
+  body {
+    background-color: white;
+    color: black;
+  }
 }
