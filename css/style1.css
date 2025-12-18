@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: blue;
   color: white;
   font-family: Arial, sans-serif;
@@ -24,4 +24,23 @@ body {
     background-color: white;
     color: black;
   }
+}
+
+ */
+
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color: blue;
+}
+@media(min-width: 75rem) and (max-width: 87.5rem){
+   body{background-color: white;}
+}
+@media(min-width:36rem) and (max-width:75rem){
+    body{background-color: rgb(110, 5, 136);}
+}
+@media(min-width:1rem) and (max-width: 36rem){
+    body{background-color: yellow;}
 }
